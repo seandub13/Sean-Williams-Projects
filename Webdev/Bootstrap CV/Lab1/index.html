@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Lab1</title>
+    <link id="Style" rel="stylesheet" type="text/css" href="Resources/CSS/style.css">
+    <script src="Resources/JS/myScript.js" type="text/javascript"></script>
+</head>
+<body onload="clock()">
+    <div class="Header">
+        
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" ></span>
+            <img id="expandedImg" src="Resources/Images/me.jpg" style="width:100%">
+            <div id="imgtext"></div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img id="col1" src="Resources/Images/me.jpg" alt="Selfie1" style="width:30%; height:30%;" onclick="myFunction(this); img(this.id);">
+            </div>
+            <div class="column">
+                <img id="col2" src="Resources/Images/me2.jpg" alt="Selfie2" style="width:30%; height:30%;" onclick="myFunction(this);img(this.id);">
+            </div>
+            <div class="column">
+                <img id="col3" src="Resources/Images/me3.jpg" alt="Selfie3" style="width:30%; height:30%;" onclick="myFunction(this);img(this.id);">
+            </div>
+            <div class="column">
+                <img id="col4" src="Resources/Images/me4.jpg" alt="Selfie4" style="width:30%; height:30%;" onclick="myFunction(this);img(this.id);">
+            </div>
+        </div>
+    </div>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="../index.html">New CV</a>
+        <a href="https://www.aig.ie/">AIG</a>
+        <a href="https://www.dcu.ie/">DCU</a>
+    </div>
+    <div class="main">
+        <button onclick="ChangeCSS('Resources/CSS/style.css')"><p>Professional Layout</p></button>
+        <button onclick="ChangeCSS('Resources/CSS/style2.css')"><p>Creative Layout</p></button>
+
+        <h2>Who am I</h2>
+        <p>
+            I am a recent graduate from Enterprise Computing in Dublin City University where I
+            graduated with First Class Honours.<br />
+            I am working as a technology analyst for AIG where I currently work as a UI UX designer and Angular developer. .<br />
+            Previously I have worked as
+            database administrator and a PMO/Scrum master in AIG for a large scale project for
+            server migrations in Europe, the Middle East and Africa..<br />
+            In the past I have been a mentor
+            in CoderDojo@DCU, working with children from 8 to 15, teaching them web
+            development..<br />
+            During my final year in DCU I was chosen to represent the college in the
+            CITI upstart program where I made it to the finals and finished 5th
+            overall with my project
+            Open Eyes VR. .<br />
+            I am passionate about technology, learning and working with people<br />
+        </p>
+        <div class="NList">
+            <h2>Work Experiance</h2>
+            <ul>
+                <li>American International Group</li>
+                <ul>
+                    <li> UI UX designer</li>
+                    <li> Database Administrator</li>
+                    <li> Project Manager</li>
+                </ul>
+                <li>Royal Victoria Eye and Ear Hospital IT Member</li>
+                <li>Coder Dojo Mentor</li>
+            </ul>
+        </div>
+        <h2>Esports</h2>
+        <p>
+            One of my biggest hobbies is esports, specifically the video game League of Legends. I have both played at both Collegiate and semi pro level<br />
+            During my time as a player or as a coach, I have competed in over 15 different tournments, both online and in person<br />
+            Some of my highlights incldue being part of the three time runner up as part of the DCU team in Irish Collegiate Esports tournaments.<br />
+            I was also one of the founding members in the DCU League of Legends society, which became the largest Collegiate society in Ireland.<br />
+
+        </p>
+        <div class="Education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>College</th>
+                    <th>Years</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <th>TUD</th>
+                    <th>2020-Now</th>
+                    <th>TBD</th>
+                </tr>
+                <tr>
+                    <th>DCU</th>
+                    <th>2015-2019</th>
+                    <th>First class honours</th>
+                </tr>
+                <tr>
+                    <th>Colaiste Dhulaigh</th>
+                    <th>2014-2015</th>
+                    <th>Six distinctions</th>
+                </tr>
+            </table>
+            <p>I am currently studying for my masters in Computer Science(Advanced Software Enginearing) at TUD</p>
+            <a id="TUD" href="https://www.tudublin.ie">
+                <img src="Resources/Images/TUD.jpg" alt="TUD logo" />
+            </a>
+
+        </div>
+        <h4>Current Time :</h4>
+        <div id="time"></div>
+        <div class="Trivia">
+            <div class="Q1">
+                <p>Q1: What is my favourite colour</p>
+                <div id="Ans1" style="display: none">
+                    Purple.
+                </div>
+                <button onclick="Answer1()"><p id="But1">Show Answer</p></button>
+            </div>
+
+            <div class="Q2">
+                <p>Q2: What is my dogs name</p>
+                <div id="Ans2" style="display: none">
+                    Joey.
+                </div>
+                <button onclick="Answer2()"><p id="But2">Show Answer</p></button>
+
+            </div>
+
+            <div class="Q3">
+                <p>Q3: How tall am I</p>
+                <div id="Ans3" style="display: none">
+                    6 foot 5 inches
+                </div>
+                <button onclick="Answer3()"><p id="But3">Show Answer</p></button>
+
+            </div>
+        </div>
+</body>
+</html>

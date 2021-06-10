@@ -1,0 +1,2 @@
+This is a small react app that takes searches and displays json data .
+To start this app you must have react installed, in a terminal go to the code folder and enter "npm start" to run it on a localhost.

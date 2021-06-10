@@ -1,0 +1,89 @@
+div.Header {
+    height: 100%;
+    width: 100%;
+    background-color: darkslategray;
+}
+    div.Header img {
+        max-width: 300px;
+        max-height: 300px;
+        margin: auto;
+        display: block;
+        width: 50%;
+    }
+/* Add a black background color to the top navigation */
+div.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+    div.topnav a {
+        float: left;
+        color: whitesmoke;
+        text-align: center;
+        padding: 2% 10% ;
+        font-size: 17px;
+    }
+
+/* Change the color of links on hover */
+div.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+div.main {
+    background-color: darkgrey;
+    padding: 1% 1% 1% 1%;
+}
+#TUD {
+    width: 80%;
+    height: 80%;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+#myDiv {
+    display: none;
+}
+
+#time {
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+
+    .column img {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+        .column img:hover {
+            opacity: 1;
+        }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    position: relative;
+   
+}
+
+
+
