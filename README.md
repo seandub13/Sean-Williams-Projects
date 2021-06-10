@@ -1,12 +1,13 @@
 # Sean-Williams-Projects
 
-## Hi,
+### Hi,
 
-## I am Sean Williams, a software developer from Dublin, Ireland.
-I have experiance in many different langueses and pride myself in my ability to pick up new langues.
-The langues I work the most in are Java, JavaScript, React, Angular , python and many more.
-Most of the code I write is used internally in my job so that can not be showcased.
-So instead I have chosen some projects I have worked on in my bacherlas and masters degrees, aloung with simple projects I used to help understand new languges.
+#### I am Sean Williams, a software developer from Dublin, Ireland.
+
+I have experience in many different languages and pride myself in my ability to pick up new languages.
+The languages I work the most in are Java, JavaScript, React, Angular , python and many more.
+Most of the code I write is used internally in my job so that cannot be showcased.
+So instead, I have chosen some projects I have worked on in my bachelors and master’s degrees, along with simple projects I used to help understand new languages.
 
 If you have any questions or want to reach out to me, dont be shy.
 You can email me at seanwilliams712@gmail.com or connect with me on [linkedin](http://www.linkedin.com/in/sean-williams-834525140) .
