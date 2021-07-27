@@ -18,7 +18,7 @@ Each folder should contain a specific readme file with information regarding tha
 
 * VR Project - Showcases the final report of a VR application I created (a live demo can be requested through emailing me).
 
-* WebDev - Different small website projects I have created in the past to get myself familair with new languages.
+* WebDev - Different small website projects I have created in the past.
 
 * Haskell - Showcases some scripts I have created using the Haskel programing language (see Haskell demo file for code).
 
