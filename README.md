@@ -8,6 +8,7 @@ I have experience in many different languages and pride myself in my ability to 
 The languages I work the most in are Java, JavaScript, React, Angular , python and many more.
 Most of the code I write is used internally in my job so that cannot be showcased.
 So instead, I have chosen some projects I have worked on in my bachelors and master’s degrees, along with simple projects I used to help understand new languages.
+To see my most recent work, id reccomend checking out my CV website (created with REACT) in the webdev folder. Although this website is currently offline for maintenance.
 
 If you have any questions or want to reach out to me, dont be shy.
 You can email me at seanwilliams712@gmail.com or connect with me on [linkedin](http://www.linkedin.com/in/sean-williams-834525140) .
