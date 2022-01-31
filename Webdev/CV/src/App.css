@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+body {
+font-family: Arial, sans-serif !important;
+}
+
+
+
+nav {
+  z-index: 2;
+}
+
+.logo {
+  width: 16.25rem;
+}
+
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: black !important;
+  border-top: 0.1875rem solid grey ;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid black;
+  
+}
+
+.navbar-nav > li > a:hover{
+  border-top: 0.1875rem solid black;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+@media(max-width: 768px) {
+ .navbar-brand {
+   width: 7rem;
+ }
+}
+
+.navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid black;
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid black;
+}
+
+
+
+.header-wraper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: black;
+  text-transform: uppercase;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: black;
+}
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+
+  }
+}
+
+.btn-main-offer {
+  border: 1px solid black;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: black;
+  margin: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  transition:  .2s ease-in-out;
+  cursor: pointer;
+}
+
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0, 20%);
+}
+
+.profile-img {
+  width: 25rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid black;
+}
+
+.about-heading {
+  color: black;
+  text-transform: uppercase;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
+}
+
+.contact {
+  background: grey;
+  padding: 3rem 0;
+}
+
+.contact h1{
+  color: white;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contact p{
+  color: white;
+}
+
+
+.contacts {
+  
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  font-size: 1.2rem;
+}
+
+.contacts input, .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid grey;
+  border-radius: 0;
+  color:black;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color:black;
+  border-bottom: 0.125rem solid grey;
+}
+
+.contacts textarea {
+  height: 12.2rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background:black;
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+.error-message {
+  color: black;
+  font-weight: 700;
+  text-align: left;
+}
+
+.success-message {
+  font-weight: 900;
+  color: green;
+}
+
+@media(max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+  
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+}
+
+.footer {
+  background: grey;
+  color: white;
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: black;
+  cursor:pointer;
+  font-weight: bold;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
